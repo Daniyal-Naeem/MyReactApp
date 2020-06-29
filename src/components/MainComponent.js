@@ -21,17 +21,6 @@ const mapStateToProps = state => {
 
 class Main extends Component {
 
-  constructor(props) {
-    super(props);
-    
-  }
-
-  // onDishSelect(dishId) {
-   // this.setState({ selectedDish: dishId});
-  //} 
-
- 
-
   render() {
     
     const HomePage = () => {
@@ -68,6 +57,5 @@ class Main extends Component {
       </div>
     );
  
-    }
-  }
+    }}
 export default withRouter(connect(mapStateToProps)(Main));
